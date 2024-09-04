@@ -27,10 +27,11 @@ class Main{
       const mesSage = await select({
         message:chalk.yellow("Tell Your Behavior?"),
         choices:[{name:"Talk to Others about my self",value:"Talk to Others about my self",},
-           { name:"Keep Quite and dont ask anything",value:"Keep Quite and dont ask anything",
+            { name:"Keep Quite and dont ask anything",value:"Keep Quite and dont ask anything",}]
+ 
 
-      }]
       })
+      
       
         // Creating Person Class
 let myPerson = new Person()
